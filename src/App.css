@@ -1,0 +1,17 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
