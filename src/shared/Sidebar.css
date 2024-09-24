@@ -1,0 +1,35 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 7%;
+    height: 100vh;
+    background-color: #343a40;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .nav-link {
+    color: #adb5bd;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+.sidebar .nav-link.active {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+.sidebar .nav-link .fa {
+    margin-right: 10px;
+}
+
+.sidebar .nav-item + .nav-item {
+    margin-top: 15px;
+}
