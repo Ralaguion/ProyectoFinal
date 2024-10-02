@@ -1,13 +1,12 @@
-
 .all-products-container {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem; 
 }
 
 .carousel {
     overflow: hidden;
-    width: 500%; 
+    width: 400%;  
     text-align: center;
-    height: 300%;
+    height: 200%; 
 }
 
 .carousel-track {
@@ -24,57 +23,52 @@
     }
 }
 
-
 .product-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 190px; /*ancho*/
-    height: 300px; /*alto*/
-    margin: 10px; 
+    width: 160px; 
+    height: 240px; 
+    margin: 8px;  
     text-align: center;
     background-color: white; 
     border-radius: 8px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    padding: 9px; 
+    padding: 6px; 
     transition: transform 0.2s, box-shadow 0.2s; 
 }
 
 .product-card:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-4px); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
 }
 
-
 .product-image {
-    width: 100px; 
-    height: 120px; 
+    width: 80px; 
+    height: 100px; 
     object-fit: cover; 
     border-radius: 8px; 
 }
 
-
 h3 {
-    font-size: 1.25rem; 
+    font-size: 1rem; 
     color: black; 
-    margin: 10px 0 5px; 
+    margin: 8px 0 4px; 
 }
 
 p {
-    font-size: 1rem; 
+    font-size: 0.9rem; 
     color: black; 
-    margin: 5px 0; 
+    margin: 4px 0;
 }
-
 
 .price {
     color: green; 
 }
 
-
 .category-row {
     display: flex; 
     justify-content: flex-start; 
     flex-wrap: wrap; 
-    margin: 0 -10px; 
+    margin: 0 -8px; 
 }

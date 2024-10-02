@@ -10,7 +10,7 @@
 .product-filter select {
     padding: 10px; 
     font-size: 18px; /* Tamaño de fuente */
-    font-weight: bold; /* Peso de fuente */
+    font-weight: bold; 
     background-color: #fff8b3; 
     color: #000; 
     border: 1px solid #ccc; 
