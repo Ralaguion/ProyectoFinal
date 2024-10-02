@@ -1,0 +1,21 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #343a40; /* Fondo oscuro (color Bootstrap) */
+    padding: 1rem; /* Espaciado interior */
+}
+
+/* Estilo para el título de la barra de navegación */
+.navbar-brand {
+    color: white; /* Color del texto en blanco */
+    font-size: 1.5rem; /* Tamaño de la fuente */
+}
+
+/* Cambiar color de texto al pasar el mouse */
+.navbar-brand:hover {
+    color: #ffffff; /* Mantener el texto blanco al pasar el mouse */
+}
+
+/* Estilo para cualquier otro texto en la barra de navegación */
+.navbar * {
+    color: white; /* Asegurar que todos los textos dentro de la navbar sean blancos */
+}
